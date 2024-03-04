@@ -1,5 +1,4 @@
 package model.entities;
-
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
@@ -47,7 +46,7 @@ public class Seller implements Serializable {
         this.email = email;
     }
 
-    public Date getBirthDate(Date birthDate) {
+    public Date getBirthDate() {
         return this.birthDate;
     }
 
